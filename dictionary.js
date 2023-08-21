@@ -86,11 +86,11 @@ function makeTargetable(currentNode, regexPattern, dictionaryEntries) {
             matches.forEach(match => {
                 fragment.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
 
-								// Extract the matched word and find its dictionary definition
+				// Extract the matched word and find its dictionary definition
                 let word = match[0];
                 let dictionaryEntry = dictionaryEntries.find(entry => entry[WORD_KEY].toLowerCase() === word.toLowerCase());
 
-								// Create the highlighted element and set up the tooltip
+				// Create the highlighted element and set up the tooltip
                 let highlighted = document.createElement('span');
                 highlighted.className = WORD_CLASS_NAME;
                 highlighted.textContent = word;
@@ -105,10 +105,10 @@ function makeTargetable(currentNode, regexPattern, dictionaryEntries) {
                 tooltipSpan.setAttribute('role', 'tooltip');
                 tooltipSpan.setAttribute('aria-hidden', 'true');
 
-								// Create an inner span for the tooltip content
-								let innerContentSpan = document.createElement('span');
-								innerContentSpan.textContent = decodeURIComponent(dictionaryEntry[DEFINITION_KEY]);
-								tooltipSpan.appendChild(innerContentSpan);
+                // Create an inner span for the tooltip content
+                let innerContentSpan = document.createElement('span');
+                innerContentSpan.textContent = decodeURIComponent(dictionaryEntry[DEFINITION_KEY]);
+                tooltipSpan.appendChild(innerContentSpan);
 
                 highlighted.appendChild(tooltipSpan);
                 highlighted.addEventListener("mouseover", () => {
@@ -126,7 +126,7 @@ function makeTargetable(currentNode, regexPattern, dictionaryEntries) {
                 lastIndex = match.index + word.length;
             });
 
-						// Append any remaining non-matching text
+            // Append any remaining non-matching text
             fragment.appendChild(document.createTextNode(text.substring(lastIndex)));
             currentNode.replaceChild(fragment, textNode);
         });
