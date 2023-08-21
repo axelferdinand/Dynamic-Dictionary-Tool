@@ -1,82 +1,66 @@
 [
   {
-    title: "Den stedlige klubben",
-    description:
-      '"Den stedlige klubben" er et uttrykk som brukes for å referere til den lokale fagforeningen eller arbeidstakergruppen på et bestemt arbeidssted. Ordet "stedlig" betyr "lokalt" eller "på dette stedet", og "klubben" refererer til en gruppe mennesker med en felles interesse, i dette tilfellet arbeidet de utfører.',
+  "title": "Den stedlige klubben",
+  "description": "\"Den stedlige klubben\" er et uttrykk som brukes for å referere til den lokale fagforeningen eller arbeidstakergruppen på et bestemt arbeidssted. Ordet \"stedlig\" betyr \"lokalt\" eller \"på dette stedet\", og \"klubben\" refererer til en gruppe mennesker med en felles interesse, i dette tilfellet arbeidet de utfører."
   },
   {
-    title: "Klubben",
-    description:
-      'I konteksten av en streik, refererer "klubben" til en gruppe arbeidstakere som er organisert sammen og som deltar i streiken. Dette kan være en fagforening, eller en uformell gruppe arbeidstakere som har gått sammen for å protestere mot noe de mener er urettferdig på arbeidsplassen deres.',
+  "title": "Klubben",
+  "description": "I konteksten av en streik, refererer \"klubben\" til en gruppe arbeidstakere som er organisert sammen og som deltar i streiken. Dette kan være en fagforening, eller en uformell gruppe arbeidstakere som har gått sammen for å protestere mot noe de mener er urettferdig på arbeidsplassen deres."
   },
   {
-    title: "Uravstemming",
-    description:
-      "En prosess hvor alle medlemmene i en organisasjon, som en fagforening, får stemme over en bestemt sak. I forbindelse med en streik, kan en uravstemning bli brukt for å bestemme om medlemmene ønsker å starte en streik, eller for å godta eller avvise et tilbud fra arbeidsgiveren. Det er en måte å sikre at alle medlemmene har en stemme i viktige beslutninger.",
+  "title": "Uravstemming",
+  "description": "En prosess hvor alle medlemmene i en organisasjon, som en fagforening, får stemme over en bestemt sak. I forbindelse med en streik, kan en uravstemning bli brukt for å bestemme om medlemmene ønsker å starte en streik, eller for å godta eller avvise et tilbud fra arbeidsgiveren. Det er en måte å sikre at alle medlemmene har en stemme i viktige beslutninger."
   },
   {
-    title: "Plassoppsigelse",
-    description:
-      "En handling utført av fagforeninger der de sier opp arbeidsavtalen for sine medlemmer på et bestemt arbeidssted for å kunne starte en lovlig streik. Dette betyr ikke at arbeidstakerne mister jobbene sine, men det er en formell prosess som må til for å kunne streike lovlig.",
+  "title": "Plassoppsigelse",
+  "description": "En handling utført av fagforeninger der de sier opp arbeidsavtalen for sine medlemmer på et bestemt arbeidssted for å kunne starte en lovlig streik. Dette betyr ikke at arbeidstakerne mister jobbene sine, men det er en formell prosess som må til for å kunne streike lovlig."
   },
   {
-    title: "Plassfratredelse",
-    description:
-      "Når arbeidstakere utfører en plassfratredelse, betyr det at de midlertidig forlater arbeidsplassen sin som en del av en lovlig streik. Dette gjøres vanligvis etter en plassoppsigelse, og det betyr at arbeidstakerne ikke utfører arbeidet sitt for en periode for å protestere mot for eksempel lønns- eller arbeidsforhold.",
+  "title": "Plassfratredelse",
+  "description": "Når arbeidstakere utfører en plassfratredelse, betyr det at de midlertidig forlater arbeidsplassen sin som en del av en lovlig streik. Dette gjøres vanligvis etter en plassoppsigelse, og det betyr at arbeidstakerne ikke utfører arbeidet sitt for en periode for å protestere mot for eksempel lønns- eller arbeidsforhold."
   },
   {
-    title: "Tvungen lønnsnemnd",
-    description:
-      "En løsning som myndighetene kan bruke når en streik anses som en trussel mot liv, helse eller sikkerhet, eller hvis den har store samfunnsmessige konsekvenser. Når en tvungen lønnsnemnd blir innført, blir streiken avsluttet og en uavhengig tredjepart, nemnda, bestemmer hva lønns- og arbeidsvilkårene skal være. Dette er en siste utvei som brukes når forhandlingene mellom arbeidsgiver og arbeidstakere ikke har ført fram.",
+  "title": "Tvungen lønnsnemnd",
+  "description": "En løsning som myndighetene kan bruke når en streik anses som en trussel mot liv, helse eller sikkerhet, eller hvis den har store samfunnsmessige konsekvenser. Når en tvungen lønnsnemnd blir innført, blir streiken avsluttet og en uavhengig tredjepart, nemnda, bestemmer hva lønns- og arbeidsvilkårene skal være. Dette er en siste utvei som brukes når forhandlingene mellom arbeidsgiver og arbeidstakere ikke har ført fram."
   },
   {
-    title: "Frontfaget",
-    description:
-      'Refererer til den første gruppen som forhandler om lønn hver vår, vanligvis industrien. Avtalen som de kommer frem til, setter en "ramme" for de påfølgende lønnsforhandlingene i andre sektorer. Ideen er at frontfaget skal ta hensyn til konkurranseevnen til norsk industri, slik at lønnsveksten ikke blir høyere enn det industrien kan tåle. Dette er kjent som "frontfagsmodellen".',
+  "title": "Frontfaget",
+  "description": "Refererer til den første gruppen som forhandler om lønn hver vår, vanligvis industrien. Avtalen som de kommer frem til, setter en \"ramme\" for de påfølgende lønnsforhandlingene i andre sektorer. Ideen er at frontfaget skal ta hensyn til konkurranseevnen til norsk industri, slik at lønnsveksten ikke blir høyere enn det industrien kan tåle. Dette er kjent som \"frontfagsmodellen\"."
   },
   {
-    title: "Overenskomster",
-    description:
-      "Avtaler som inngås mellom arbeidsgivere og arbeidstakeres fagforeninger om lønns- og arbeidsvilkår. Disse avtalene er juridisk bindende og regulerer forhold som lønn, arbeidstid, ferie, overtidsbetaling og andre arbeidsforhold. Overenskomster er viktige for å sikre rettferdige vilkår og stabilitet på arbeidsplassen.",
+  "title": "Overenskomster",
+  "description": "Avtaler som inngås mellom arbeidsgivere og arbeidstakeres fagforeninger om lønns- og arbeidsvilkår. Disse avtalene er juridisk bindende og regulerer forhold som lønn, arbeidstid, ferie, overtidsbetaling og andre arbeidsforhold. Overenskomster er viktige for å sikre rettferdige vilkår og stabilitet på arbeidsplassen."
   },
   {
-    title: "Tariffoppgjør",
-    description:
-      "En prosess der arbeidsgivere og arbeidstakernes fagforeninger forhandler om lønns- og arbeidsvilkår. Disse forhandlingene resulterer i en tariffavtale, som er en juridisk bindende avtale som regulerer lønn og andre arbeidsforhold. Tariffoppgjøret skjer vanligvis hvert eller hvert annet år, og kan noen ganger resultere i streik hvis partene ikke kommer til enighet.",
+  "title": "Tariffoppgjør",
+  "description": "En prosess der arbeidsgivere og arbeidstakernes fagforeninger forhandler om lønns- og arbeidsvilkår. Disse forhandlingene resulterer i en tariffavtale, som er en juridisk bindende avtale som regulerer lønn og andre arbeidsforhold. Tariffoppgjøret skjer vanligvis hvert eller hvert annet år, og kan noen ganger resultere i streik hvis partene ikke kommer til enighet."
   },
   {
-    title: "Organisasjonsfriheten",
-    description:
-      "En grunnleggende rettighet som betyr at alle har rett til å danne, bli medlem av, og delta i aktiviteter i fagforeninger eller andre typer organisasjoner. I arbeidslivet innebærer organisasjonsfriheten retten til å organisere seg for å forhandle om lønn og arbeidsvilkår, og til å streike hvis forhandlingene ikke fører fram. Denne rettigheten er beskyttet av både norsk lov og internasjonale konvensjoner.",
+  "title": "Organisasjonsfriheten",
+  "description": "En grunnleggende rettighet som betyr at alle har rett til å danne, bli medlem av, og delta i aktiviteter i fagforeninger eller andre typer organisasjoner. I arbeidslivet innebærer organisasjonsfriheten retten til å organisere seg for å forhandle om lønn og arbeidsvilkår, og til å streike hvis forhandlingene ikke fører fram. Denne rettigheten er beskyttet av både norsk lov og internasjonale konvensjoner."
   },
   {
-    title: "Passiv lockout",
-    description:
-      "I motsetning til en vanlig lockout, der arbeidsgivere aktivt stenger arbeidstakerne ute fra arbeidsplassen, innebærer en passiv lockout at arbeidsgiveren ikke tar initiativ til å stenge arbeidstakerne ute, men heller ikke tar dem tilbake til arbeid etter en streik. Dette kan brukes som en strategi for å legge press på arbeidstakerne og deres fagforening.",
+  "title": "Passiv lockout",
+  "description": "I motsetning til en vanlig lockout, der arbeidsgivere aktivt stenger arbeidstakerne ute fra arbeidsplassen, innebærer en passiv lockout at arbeidsgiveren ikke tar initiativ til å stenge arbeidstakerne ute, men heller ikke tar dem tilbake til arbeid etter en streik. Dette kan brukes som en strategi for å legge press på arbeidstakerne og deres fagforening."
   },
   {
-    title: "Partssamarbeidet",
-    description:
-      "Samarbeidet mellom arbeidsgivere og arbeidstakere, ofte representert ved fagforeninger, på en arbeidsplass. Målet med partssamarbeidet er å skape en god dialog og et godt samarbeid mellom partene, slik at man sammen kan løse problemer, forbedre arbeidsforholdene og bidra til bedriftens utvikling.",
+  "title": "Partssamarbeidet",
+  "description": "Samarbeidet mellom arbeidsgivere og arbeidstakere, ofte representert ved fagforeninger, på en arbeidsplass. Målet med partssamarbeidet er å skape en god dialog og et godt samarbeid mellom partene, slik at man sammen kan løse problemer, forbedre arbeidsforholdene og bidra til bedriftens utvikling."
   },
   {
-    title: "Streikeuttak",
-    description:
-      "Hvilke arbeidstakere som blir tatt ut i streik av fagforeningen. Dette kan være enkeltpersoner, grupper av arbeidstakere, eller alle medlemmene i en fagforening.",
+  "title": "Streikeuttak",
+  "description": "Hvilke arbeidstakere som blir tatt ut i streik av fagforeningen. Dette kan være enkeltpersoner, grupper av arbeidstakere, eller alle medlemmene i en fagforening."
   },
   {
-    title: "Partssammensatt arbeid",
-    description:
-      "Arbeid eller prosjekter hvor både arbeidsgivere og arbeidstakere, ofte representert ved fagforeninger, er involvert. Dette kan være komiteer, arbeidsgrupper eller prosjekter som er satt sammen for å løse spesifikke oppgaver eller problemer på arbeidsplassen.",
+  "title": "Partssammensatt arbeid",
+  "description": "Arbeid eller prosjekter hvor både arbeidsgivere og arbeidstakere, ofte representert ved fagforeninger, er involvert. Dette kan være komiteer, arbeidsgrupper eller prosjekter som er satt sammen for å løse spesifikke oppgaver eller problemer på arbeidsplassen."
   },
   {
-    title: "Arbeidskamp",
-    description:
-      "Konflikt som kan ta form av streik (hvor arbeidstakere nekter å jobbe), lockout (hvor arbeidsgivere nekter arbeidstakerne å jobbe), eller andre former for protest. Målet med en arbeidskamp er å påvirke forhandlingene og oppnå bedre vilkår.",
+  "title": "Arbeidskamp",
+  "description": "Konflikt som kan ta form av streik (hvor arbeidstakere nekter å jobbe), lockout (hvor arbeidsgivere nekter arbeidstakerne å jobbe), eller andre former for protest. Målet med en arbeidskamp er å påvirke forhandlingene og oppnå bedre vilkår."
   },
   {
-    title: "Lockout",
-    description:
-      "En situasjon der arbeidsgiveren stenger arbeidstakerne ute fra arbeidsplassen. Målet med en lockout er å legge press på arbeidstakerne og deres fagforening for å få dem til å godta arbeidsgiverens vilkår.",
+  "title": "Lockout",
+  "description": "En situasjon der arbeidsgiveren stenger arbeidstakerne ute fra arbeidsplassen. Målet med en lockout er å legge press på arbeidstakerne og deres fagforening for å få dem til å godta arbeidsgiverens vilkår."
   }
-]
+  ]
