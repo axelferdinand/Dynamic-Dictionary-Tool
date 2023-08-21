@@ -9,6 +9,7 @@ const WORD_CLASS_NAME = 'dictionary__word';
 const TOOLTIP_CLASS_NAME = 'dictionary__word__definition'; 
 const WORD_KEY = 'word';
 const DEFINITION_KEY = 'description';
+const API_SOURCE = 'https://axelferdinand.github.io/Dynamic-Dictionary-Tooltips/dictionary.json';
 
 /**
  * Entry point of the script. This function locates text elements in the document,
@@ -167,7 +168,7 @@ function debounce(func, delay) {
 
 // Fetch dictionary entries from the API and process them on document load
 (function () {
-    fetch('https://axelferdinand.github.io/Dynamic-Dictionary-Tooltips/dictionary.json')
+    fetch(API_SOURCE)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
