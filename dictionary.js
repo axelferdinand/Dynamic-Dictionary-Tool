@@ -2,7 +2,7 @@
 // This script highlights words defined in a dictionary and shows their definitions in a tooltip when hovered or pressed.
 
 // Constants for class names and keys
-const CONTAINER_CLASS_NAME = 'text';
+const CONTAINER_CLASS_NAME = 'dictionary';
 const WORD_CLASS_NAME = 'dictionary__word';
 const TOOLTIP_CLASS_NAME = 'dictionary__word__definition'; 
 const WORD_KEY = 'title';
@@ -165,7 +165,7 @@ function debounce(func, delay) {
 
 // Fetch dictionary entries from the API and process them on document load
 (function () {
-    fetch('/api/dictionary.json')
+    fetch('https://axelferdinand.github.io/Dynamic-Dictionary-Tool/dictionary.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
