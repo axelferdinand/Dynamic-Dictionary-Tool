@@ -1,0 +1,106 @@
+// Dictionary
+$color-background: #cecddd;
+$color-arrow: #cecddd;
+$color-text: #000000;
+$color-word: #34316b;
+$before-width: 0.5rem;
+$after-width: 0.5rem;
+
+.dictionary {  
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.5;
+  
+  &__word {
+    border-bottom: 2px dotted $color-word;
+    color: $color-word;
+    cursor: help;
+    position: relative;
+
+    &__definition {
+      position: absolute;
+      z-index: 10000000;
+      bottom: calc(100% + 0.5rem);
+      transform: translateX(-50%);
+      left: 50%;
+      width: 30rem;
+      background: $color-background;
+      padding: 0.75rem 1rem;
+      color: $color-text;
+      font-size: 0.8em;
+      pointer-events: none;
+      user-select: none;
+      border-radius: 2px;
+      
+      animation-duration: .2s;
+      animation-fill-mode: both;
+      animation-name: dictionary;
+      animation-duration: .2s;
+
+      &:before,
+      &:after {
+          border: solid transparent;
+          content: " ";
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none;
+          top: 100%;
+          left: 50%;
+      }
+
+      &:before {
+        border-width: $before-width;
+        margin-left: -$before-width;
+        border-top-color: $color-arrow;
+      }
+
+      &:after {
+        border-width: $after-width;
+        margin-left: -$after-width;
+        border-top-color: $color-background;
+      }
+
+      @media screen and (max-width: 760px){
+        position: fixed;
+        top: 50%;
+        width: calc(100vw - 2rem);
+        left: 1rem;
+        right: 1rem;
+        transform: translateY(-50%) !important;
+
+        span {
+          display: block;
+          height: 100&;
+          position: fixed;
+          top: 50%;
+          width: calc(100vw - 2rem);
+          left: 0;
+          right: 0;
+          transform: translateY(-50%);
+          background-color: $color-background;
+          padding: 1rem;
+          border-radius: 2px;
+        }
+
+        &:before,
+        &:after {
+            display: none;
+        }
+      }
+    }
+  }
+}
+
+@keyframes dictionary {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translate3d(0, 15%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+}
