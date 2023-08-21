@@ -1,4 +1,4 @@
-# Introduction
+# 📖 Dynamic Dictionary Tool
 
 This script is a powerful tool that empowers web content. Imagine having any piece of text enriched with definitions in real-time, without needing a separate glossary. That's what this tool achieves. It finds words defined in a given dictionary, highlights them, and then serves the definition right there in the text when hovered over or pressed.
 
