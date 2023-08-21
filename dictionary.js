@@ -1,11 +1,13 @@
-// 📖 Dynamic Dictionary Tool
+// 📖 Dynamic Dictionary Tooltips Demo
 // This script highlights words defined in a dictionary and shows their definitions in a tooltip when hovered or pressed.
+// Written by ChatGPT under the command of Prototypen
+// https://prototypen.no
 
 // Constants for class names and keys
 const CONTAINER_CLASS_NAME = 'dictionary';
 const WORD_CLASS_NAME = 'dictionary__word';
 const TOOLTIP_CLASS_NAME = 'dictionary__word__definition'; 
-const WORD_KEY = 'title';
+const WORD_KEY = 'word';
 const DEFINITION_KEY = 'description';
 
 /**
@@ -165,7 +167,7 @@ function debounce(func, delay) {
 
 // Fetch dictionary entries from the API and process them on document load
 (function () {
-    fetch('https://axelferdinand.github.io/Dynamic-Dictionary-Tool/dictionary.json')
+    fetch('https://axelferdinand.github.io/Dynamic-Dictionary-Tooltips/dictionary.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
