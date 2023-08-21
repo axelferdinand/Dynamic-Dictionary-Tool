@@ -1,8 +1,6 @@
 # Introduction
 
-Welcome to the Dictionary Tool, an elegant JavaScript library built to enhance reading experiences on the web. With this tool, words from a defined dictionary get dynamically highlighted in your content. And what's more, readers can simply hover or tap on these highlighted words to view their definitions through a friendly tooltip.
-
-By seamlessly integrating a dictionary into your content, we aim to enrich comprehension, deepen engagement, and provide readers with a more immersive reading environment. Whether it's a technical article, an educational portal, or a literary blog, the Dictionary Tool makes understanding complex or unfamiliar terms just a hover away.
+This script is a powerful tool that empowers web content. Imagine having any piece of text enriched with definitions in real-time, without needing a separate glossary. That's what this tool achieves. It finds words defined in a given dictionary, highlights them, and then serves the definition right there in the text when hovered over or pressed.
 
 ## Features:
 
