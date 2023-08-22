@@ -2,7 +2,7 @@
 
 This script is a powerful tool that empowers web content. Imagine having any piece of text enriched with definitions in real-time, without needing a separate glossary. That's what this tool achieves. It finds words defined in a given dictionary, highlights them, and then serves the definition right there in the text when hovered over or pressed.
 
-![tooltips](https://github.com/axelferdinand/Dynamic-Dictionary-Tooltips/assets/10460870/26bb9461-e7fe-48bb-b937-7bc0d8628c07)
+![tooltips](https://github.com/axelferdinand/Dynamic-Dictionary-Tooltips/assets/10460870/986f8d2b-6653-431c-95b5-822573f9c1f8)
 
 ## Features:
 
